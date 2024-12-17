@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #1bb1dc;
+  color: #217890;
   transition: 0.5s;
 }
 
@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .intro-info h2 span {
-  color: #1bb1dc;
+  color: #0b35a8;
 }
 
 @media (max-width: 767px) {
@@ -472,9 +472,16 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 4px;
   transition: 0.5s;
   color: #fff;
-  background: #1bb1dc;
+  background: #0b35a8;
   color: #fff;
 }
+.large-heading {
+  font-size: 60px; /* Adjust the font size as needed */
+  width: 200%; /* Adjust the width as needed */
+  text-align: center; /* Adjust the text alignment as needed */
+}
+
+
 
 #hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
   background: #0a98c0;
@@ -1064,6 +1071,8 @@ section {
   text-align: center;
 }
 
+
+
 #clients .owl-dot {
   display: inline-block;
   margin: 0 5px;
@@ -1076,7 +1085,20 @@ section {
 #clients .owl-dot.active {
   background-color: #1bb1dc;
 }
+.clients .clients-carousel img {
+  display: block; /* Makes images behave as block elements */
+  margin: 0 auto; /* Centers the images horizontally */
+  max-height: 100px; /* Sets a uniform max height for logos */
+  width: auto; /* Keeps the aspect ratio */
+  object-fit: contain; /* Ensures the image fits without distortion */
+  padding: 10px; /* Adds spacing around images */
+}
 
+.center-text {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
 /* Pricing Section
 --------------------------------*/
 #pricing {
@@ -1394,6 +1416,7 @@ section {
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1434,6 +1457,28 @@ section {
 #footer .footer-top .social-links a:hover {
   background: #0a98c0;
   color: #fff;
+}
+
+#footer {
+  padding: 30px 0; /* Adjust padding as needed */
+  background: #f5f8fd; /* Ensure background color matches the design */
+}
+
+#footer .footer-top {
+  padding: 30px 0; /* Adjust padding as needed */
+}
+
+#footer .footer-info, #footer .footer-links {
+  margin-bottom: 20px; /* Adjust margin as needed */
+  /* padding-left: 250px; Adjust padding as needed */
+}
+
+#footer .footer-info h3, #footer .footer-links h4 {
+  margin-bottom: 15px; /* Adjust margin as needed */
+}
+
+#footer .footer-info p, #footer .footer-links p {
+  margin-bottom: 10px; /* Adjust margin as needed */
 }
 
 @media (max-width: 574px) {
